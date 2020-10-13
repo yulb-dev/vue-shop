@@ -10,7 +10,7 @@ import NProgress from '../node_modules/nprogress/nprogress.js'
 // import '../node_modules/nprogress/nprogress.css'
 import axios from 'axios'
 //配置请求额根路径
-axios.defaults.baseURL = 'http://localhost:3000/'
+axios.defaults.baseURL = 'http://localhost:7060/'
 //在request拦截器中,展示进度条
 //axios请求预处理
 axios.interceptors.request.use(cofig => {
